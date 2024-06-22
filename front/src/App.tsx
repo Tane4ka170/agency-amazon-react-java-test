@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Dashboard from "./pages/Dashboard";
 import Layout from "./components/Layout/Layout";
-import "./App.css";
 
 const App: React.FC = () => {
   return (

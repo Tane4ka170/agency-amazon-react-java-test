@@ -6,14 +6,14 @@ const Layout: React.FC = () => {
   return (
     <Container>
       <Header>
-        <Logo to="/">Dashboard</Logo>
+        <Logo to="/">AdMetricsDashboard</Logo>
         <Nav>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/dashboard">Dashboard</NavLink>
             </li>
           </ul>
         </Nav>
